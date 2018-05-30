@@ -33,19 +33,36 @@ body {
 }
 
 h1 {
-    color: red;
+    color: green;
     text-align: center;
 }
 
-.thick-green-border {
-    border-color: green;
+p {
+    color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#red {
+    color: red;
+}
+
+.thick-border {
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
+}
+
+.red {
+    border-color: red;
+}
+
+.green {
+    border-color: green
 }
 
 .smaller-image {
     width: 150px;
     height: 150px;
 }
-
